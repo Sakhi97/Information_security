@@ -95,5 +95,5 @@ Others were voluntary tasks so I did all 13 tasks and only 8 one I could not do 
 ## b) Injected. Solve Webgoat A1 Injection (intro)
 Task 2
 I did completed the task with the command 'select department from employees where userid=96134'
-<img src="https://github.com/Sakhi97/Information_security/blob/main/h2/webgoat2.png" width="450" height="300">
+<img src="https://github.com/Sakhi97/Information_security/blob/main/h2/webgoat2.png" width="650" height="250">
 
