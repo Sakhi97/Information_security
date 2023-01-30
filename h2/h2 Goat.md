@@ -128,6 +128,10 @@ Injection occurs when the input is directly entered into the query:
 
 #### Task 10
 
+In the following exercise, I play the role of a regular user, John Smith (no admin privileges), who is curious and willing to commit criminal actions to obtain all income data.
+
+Entering text onto input fields (Employee Name and Authentication TAN)
+
 <img src="https://github.com/Sakhi97/Information_security/blob/main/h2/webgoat10.png" width="650" height="250">
 
 #### Task 11
@@ -139,7 +143,8 @@ Injection occurs when the input is directly entered into the query:
 <img src="https://github.com/Sakhi97/Information_security/blob/main/h2/webgoat12.png" width="650" height="250">
 
 #### Task 13
-
+The final step of the Injection introduction is to delete the access log- table.
+with ´; DROP TABLE access_log;--´ I deleted information about manipulation with salary.
 <img src="https://github.com/Sakhi97/Information_security/blob/main/h2/webgoat13.png" width="650" height="250">
 
 
