@@ -66,6 +66,10 @@ HP with CVE-2022-3990 fixed bugs in HPSFViewer versions lower than 8.6.3.1.
 
 ## a) Sequel. Solve [SQLZoo](https://sqlzoo.net/wiki/SQL_Tutorial)
 
+SqlZoo is a fantastic site for learning SQL and practicing with interesting tasks.
 
+<img src="https://github.com/Sakhi97/Information_security/blob/main/h2/sqlzoo.png" width="750" height="400">
 
+In the beginning, you can practice easy tasks by modifying the sql statement slightly. However, as you progress, the difficulty will increase.
+### 0 SELECT BASICS
 <img src="https://github.com/Sakhi97/Information_security/blob/main/h2/sql0.png" width="750" height="400">
