@@ -93,7 +93,49 @@ Others were voluntary tasks so I did all 13 tasks and only 8 one I could not do 
 <img src="https://github.com/Sakhi97/Information_security/blob/main/h2/sql2-13.png" width="750" height="400">
 
 ## b) Injected. Solve Webgoat A1 Injection (intro)
-Task 2
+#### Task 2
 I did completed the task with the command 'select department from employees where userid=96134'
+
 <img src="https://github.com/Sakhi97/Information_security/blob/main/h2/webgoat2.png" width="650" height="250">
+
+#### Task 3
+I completed with the command 'update employees set department ='Sales' where userid=89763
+
+<img src="https://github.com/Sakhi97/Information_security/blob/main/h2/webgoat3.png" width="650" height="250">
+
+#### Task 4
+
+<img src="https://github.com/Sakhi97/Information_security/blob/main/h2/webgoat4.png" width="650" height="250">
+
+#### Task 5
+
+<img src="https://github.com/Sakhi97/Information_security/blob/main/h2/webgoat5.png" width="650" height="250">
+
+#### Task 6
+
+
+#### Task 7
+
+#### Task 8
+
+#### Task 9
+
+<img src="https://github.com/Sakhi97/Information_security/blob/main/h2/webgoat9.png" width="650" height="250">
+
+#### Task 10
+
+<img src="https://github.com/Sakhi97/Information_security/blob/main/h2/webgoat10.png" width="650" height="250">
+
+#### Task 11
+
+<img src="https://github.com/Sakhi97/Information_security/blob/main/h2/webgoat11.png" width="650" height="250">
+
+#### Task 12
+
+<img src="https://github.com/Sakhi97/Information_security/blob/main/h2/webgoat12.png" width="650" height="250">
+
+#### Task 13
+
+<img src="https://github.com/Sakhi97/Information_security/blob/main/h2/webgoat13.png" width="650" height="250">
+
 
