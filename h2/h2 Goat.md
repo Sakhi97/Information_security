@@ -73,3 +73,12 @@ SqlZoo is a fantastic site for learning SQL and practicing with interesting task
 In the beginning, you can practice easy tasks by modifying the sql statement slightly. However, as you progress, the difficulty will increase.
 ### 0 SELECT BASICS
 <img src="https://github.com/Sakhi97/Information_security/blob/main/h2/sql0.png" width="750" height="400">
+
+### 2 SELECT FROM WORLD
+<img src="https://github.com/Sakhi97/Information_security/blob/main/h2/sql2-1.2.3.png" width="750" height="400">
+<img src="https://github.com/Sakhi97/Information_security/blob/main/h2/sql2-4.5.6.png" width="750" height="400">
+<img src="https://github.com/Sakhi97/Information_security/blob/main/h2/sql2-7.8.png" width="750" height="400">
+<img src="https://github.com/Sakhi97/Information_security/blob/main/h2/sql2-9.10.png" width="750" height="400">
+<img src="https://github.com/Sakhi97/Information_security/blob/main/h2/sql2-11.12.png" width="750" height="400">
+<img src="https://github.com/Sakhi97/Information_security/blob/main/h2/sql2-13.png" width="750" height="400">
+
