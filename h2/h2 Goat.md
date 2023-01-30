@@ -105,20 +105,24 @@ I completed with the command 'update employees set department ='Sales' where use
 
 #### Task 4
 
+Added phone column to the table
+
 <img src="https://github.com/Sakhi97/Information_security/blob/main/h2/webgoat4.png" width="650" height="250">
 
 #### Task 5
 
+In this task I granted admin rights to unauthorized user
+
 <img src="https://github.com/Sakhi97/Information_security/blob/main/h2/webgoat5.png" width="650" height="250">
 
-#### Task 6
+#### When user input is not correctly managed, it can result in data being revealed, deleted, or manipulated by an attacker. To avoid SQL injection attacks: employ a least-privilege approach to input validation/sanitation select a database technology that: supports parameterized query options but does not permit command chaining
 
 
-#### Task 7
-
-#### Task 8
 
 #### Task 9
+
+Injection occurs when the input is directly entered into the query:
+´SELECT * FROM user_data WHERE first_name='John' AND last_name='' OR '1'='1';´
 
 <img src="https://github.com/Sakhi97/Information_security/blob/main/h2/webgoat9.png" width="650" height="250">
 
