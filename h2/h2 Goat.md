@@ -45,10 +45,16 @@ Remove unneeded features, components, files, and documentation.
 
 * Check for unmaintained libraries and components that lack security fixes for previous versions. If patching is impossible, use a virtual patch to monitor, identify, or prevent the issue.
 
-## Podcast
+## Summary and what I learned [Darknet Diaries Episode 131](https://darknetdiaries.com/episode/131/)
 
 On the podcast, Jack and Andy revealed a website with inappropriate content (child pornography, child abuse) that existed on the darknet. The website granted users access if they transferred a particular quantity of Bitcoin to the website's owner's wallet. Agents investigating the case employed technologies to follow through blockchain Bitcoin transactions among users and web site administrators, but it didn't help them much. Only until the administrator made a major error and opened the website to the public were the agents able to obtain IP addresses of users and administrators. They chose to begin with users who had access to minors and may exploit them. After locking up hazardous website members, they proceeded to Korea to find the admin. The agents successfully imprisoned the administrator and pulled down the website.
 
 * What I learned?
-* My thouts
+
+It was fascinating to hear about the structure of the blockchain and how agents investigated the case. Users feel that cryptocurrency allows them to conduct secret transactions, but it is really more visible in some ways than the banking system since, in the end, people need to cash out their money, which is impossible without providing personal information. Also, agents tracked nonstop until the website's owner made a mistake, just as hackers do when they have a target.
+
+* My thougths 
+It is unfortunate that people might utilize the darknet in heinous ways, but being aware of and understanding about the darknet is always beneficial to people.
+
+
 
