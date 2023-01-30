@@ -53,8 +53,19 @@ On the podcast, Jack and Andy revealed a website with inappropriate content (chi
 
 It was fascinating to hear about the structure of the blockchain and how agents investigated the case. Users feel that cryptocurrency allows them to conduct secret transactions, but it is really more visible in some ways than the banking system since, in the end, people need to cash out their money, which is impossible without providing personal information. Also, agents tracked nonstop until the website's owner made a mistake, just as hackers do when they have a target.
 
-* My thougths 
+* My thougth
 It is unfortunate that people might utilize the darknet in heinous ways, but being aware of and understanding about the darknet is always beneficial to people.
+
+## [CVE](https://www.imperva.com/learn/application-security/cve-cvss-vulnerability/)
+* CVE (Common Vulnerabilities and Exposures) is a standardized database for identifying and listing security flaws in software and systems. It serves as a single point of reference for researchers, practitioners, and consumers to identify, track, and prioritize the vulnerabilities that must be addressed. 
+
+* CVE serves as a systematic and comprehensive technique for detecting, tracking, and mitigating security vulnerabilities in order to assist avoid cyber attacks and improve overall security.
+* CVE-2022-3990 
+HP with CVE-2022-3990 fixed bugs in HPSFViewer versions lower than 8.6.3.1. 
+
+
+## a) Sequel. Solve [SQLZoo](https://sqlzoo.net/wiki/SQL_Tutorial)
+
 
 
 
