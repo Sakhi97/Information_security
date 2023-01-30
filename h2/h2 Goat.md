@@ -68,4 +68,4 @@ HP with CVE-2022-3990 fixed bugs in HPSFViewer versions lower than 8.6.3.1.
 
 
 
-
+<img src="https://github.com/Sakhi97/Information_security/blob/main/h2/sql0.png" width="750" height="400">
