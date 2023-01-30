@@ -45,7 +45,29 @@ Remove unneeded features, components, files, and documentation.
 
 * Check for unmaintained libraries and components that lack security fixes for previous versions. If patching is impossible, use a virtual patch to monitor, identify, or prevent the issue.
 
-## Summary and what I learned [Darknet Diaries Episode 131](https://darknetdiaries.com/episode/131/)
+### Summary of the article [A03:2021-Injection](https://owasp.org/Top10/A03_2021-Injection/)
+
+An attacker injects data into an application to modify the meaning of commands issued to an interpreter. SQL injection is the most typical example. An attacker sends "101 OR 1=1" instead of "101". This data makes SQL queries return all records instead of one. SQL, LDAP, Operating System, XPath, XQuery, Expression Language, and others are common web interpreters. Data-to-command interfaces are vulnerable. Even XSS is HTML injection.
+
+* User-supplied data is not validated, filtered, or sanitized by the application.
+
+* Dynamic queries or non-parameterized calls without context-aware escaping are used directly in the interpreter.
+
+* Hostile data is used within object-relational mapping (ORM) search parameters to extract additional, sensitive records.
+
+* Hostile data is directly used or concatenated. The SQL or command contains the structure and malicious data in dynamic queries, commands, or stored procedures.
+
+
+
+### How to prevent 
+
+* Use LIMIT and other SQL controls within queries to prevent mass disclosure of records in case of SQL injection.
+* For any residual dynamic queries, escape special characters using the specific escape syntax for that interpreter.
+* Use positive server-side input validation. This is not a complete defense as many applications require special characters, such as text areas or APIs for mobile applications
+* The preferred option is to use a safe API, which avoids using the interpreter entirely, provides a parameterized interface, or migrates to Object Relational Mapping Tools (ORMs).
+
+
+### Summary of [Darknet Diaries Episode 131](https://darknetdiaries.com/episode/131/)
 
 On the podcast, Jack and Andy revealed a website with inappropriate content (child pornography, child abuse) that existed on the darknet. The website granted users access if they transferred a particular quantity of Bitcoin to the website's owner's wallet. Agents investigating the case employed technologies to follow through blockchain Bitcoin transactions among users and web site administrators, but it didn't help them much. Only until the administrator made a major error and opened the website to the public were the agents able to obtain IP addresses of users and administrators. They chose to begin with users who had access to minors and may exploit them. After locking up hazardous website members, they proceeded to Korea to find the admin. The agents successfully imprisoned the administrator and pulled down the website.
 
@@ -122,7 +144,7 @@ In this task I granted admin rights to unauthorized user
 #### Task 9
 
 Injection occurs when the input is directly entered into the query:
-´SELECT * FROM user_data WHERE first_name='John' AND last_name='' OR '1'='1';´
+`SELECT * FROM user_data WHERE first_name='John' AND last_name='' OR '1'='1';`
 
 <img src="https://github.com/Sakhi97/Information_security/blob/main/h2/webgoat9.png" width="650" height="250">
 
@@ -136,15 +158,38 @@ Entering text onto input fields (Employee Name and Authentication TAN)
 
 #### Task 11
 
+With the command `Smith' or '1'1` and `3SL99A or '1'1`I got access to databse
+
 <img src="https://github.com/Sakhi97/Information_security/blob/main/h2/webgoat11.png" width="650" height="250">
 
 #### Task 12
+
+With the command `3SL99A';UPDATE Employees SET salary=100000 WHERE last_name='Smith' AND auth_tan='3SL99A';--` I changed salary of Smith.
 
 <img src="https://github.com/Sakhi97/Information_security/blob/main/h2/webgoat12.png" width="650" height="250">
 
 #### Task 13
 The final step of the Injection introduction is to delete the access log- table.
 with ´; DROP TABLE access_log;--´ I deleted information about manipulation with salary.
+
 <img src="https://github.com/Sakhi97/Information_security/blob/main/h2/webgoat13.png" width="650" height="250">
+
+## Sources and references
+
+https://terokarvinen.com/2023/information-security-2023/
+
+https://owasp.org/Top10/A03_2021-Injection/
+
+https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/
+
+https://owasp.org/Top10/A05_2021-Security_Misconfiguration/
+
+https://darknetdiaries.com/
+
+https://sqlzoo.net/wiki/SQL_Tutorial
+
+https://cvetrends.com/
+
+https://cve.mitre.org/
 
 
