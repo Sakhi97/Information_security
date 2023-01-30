@@ -79,7 +79,9 @@ The first three exercises were simple; all I had to do was follow the instructio
 in 1 one I had to select name, population and continent from table world
 in 2 one I had to add where statement which shows only if population is over 200 mil.
 in 3 one I had to find gdp per capita, so I just divided gdp on population
+
 <img src="https://github.com/Sakhi97/Information_security/blob/main/h2/sql2-1.2.3.png" width="750" height="400">
+
 in 4 one I divided population on 1 mil and added the where statement equals to South Africa
 in 5 one I used IN to find name and population for three countries
 in 6 one I used LIKE because I had to find any country which has in it's name United.
@@ -93,5 +95,5 @@ Others were voluntary tasks so I did all 13 tasks and only 8 one I could not do 
 ## b) Injected. Solve Webgoat A1 Injection (intro)
 Task 2
 I did completed the task with the command 'select department from employees where userid=96134'
-<img src="https://github.com/Sakhi97/Information_security/blob/main/h2/webgoat2.png" width="750" height="400">
+<img src="https://github.com/Sakhi97/Information_security/blob/main/h2/webgoat2.png" width="350" height="600">
 
