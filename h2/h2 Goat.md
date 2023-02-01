@@ -83,7 +83,7 @@ It is unfortunate that people might utilize the darknet in heinous ways, but bei
 
 * CVE serves as a systematic and comprehensive technique for detecting, tracking, and mitigating security vulnerabilities in order to assist avoid cyber attacks and improve overall security.
 * CVE-2022-3990 
-HP with CVE-2022-3990 fixed bugs in HPSFViewer versions lower than 8.6.3.1. 
+HP with [CVE-2022-3990](https://cve.report/CVE-2022-3990) fixed bugs in HPSFViewer versions lower than 8.6.3.1. 
 
 
 ## a) Sequel. Solve [SQLZoo](https://sqlzoo.net/wiki/SQL_Tutorial)
